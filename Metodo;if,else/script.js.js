@@ -1,19 +1,18 @@
 
        
- let voto = 21; 
+ let temperatura = parseFloat(prompt("Inserire la temperatura")); 
 
-if (voto < 18) {
-     console.log("voto:insufficiente");
- } else if (voto >= 18 && voto < 21) {
-     console.log("voto:sufficiente");
- } else if (voto >= 21 && voto < 24) {
-     console.log("voto:buono");
- } else if (voto >= 24 && voto < 27) {
-     console.log("voto:distinto");
- } else if (voto >= 27 && voto < 30) {
-     console.log("voto:ottimo");
- } else if (voto === 30) {
-     console.log("voto:eccellente");
- }
+
+if ( temperatura < -10) {
+     console.log( "copriti…ancora ti raffreddi");
+ } else if (temperatura <0 ) {
+     console.log("non è tanto il freddo quanto l'umidità");
+ } else if (temperatura <20) {
+     console.log("non ci sono più le mezze stagioni");
+ } else if (temperatura <30) {
+     console.log("mia dia una peroni sudata");
+ } else if (temperatura >= 30) {
+     console.log("lu mare, lu sole, lu ientu");
+ } 
   
 
