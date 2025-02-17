@@ -17,7 +17,7 @@ switch (true) {
     case (voto >= 27 && voto < 30):
         console.log("voto:ottimo");
         break;
-    case (voto = 30):
+    case (voto === 30):
         console.log("voto:eccellente");
         break;
 }    

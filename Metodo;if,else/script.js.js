@@ -12,7 +12,7 @@ if (voto < 18) {
      console.log("voto:distinto");
  } else if (voto >= 27 && voto < 30) {
      console.log("voto:ottimo");
- } else if (voto = 30) {
+ } else if (voto === 30) {
      console.log("voto:eccellente");
  }
   
